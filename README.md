@@ -12,4 +12,21 @@ agentic_ai_Verilog_TB_generation/
 ├── ai_verilog_agent.py     # Core agent implementation: prompts, code generation, scaffolding
 ├── main.py                 # Example CLI / entrypoint to call the agent and generate files
 └── README.md               # This file
+```
+🧠 Features
 
+AI-driven generation of Verilog/SystemVerilog modules
+
+Automatic creation of simple testbenches (stimulus + basic checks)
+
+CLI entrypoint to request a design and output generated files
+
+Modular codebase for integrating different LLM backends or prompt templates
+
+🛠️ Requirements
+
+Python 3.8+
+
+An LLM API or local model endpoint compatible with the project's prompt format (set environment variables or modify ai_verilog_agent.py to configure)
+
+Optional: Icarus Verilog and GTKWave for local simulation and waveform viewing
